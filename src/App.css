@@ -1,0 +1,63 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #222222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*
+  Cart Demo
+*/
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  padding: 5px;
+  background-color: #EEEEEE;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.container {
+  margin: 16px auto;
+  max-width: 400px;
+}
+
+.callout {
+  padding: 16px;
+  margin-bottom: 8px;
+  background-color: #EEEEEE;
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.shopping-action {
+  float: right;
+  cursor: pointer;
+  transition: .1s linear;
+}
+
+.shopping-action:hover {
+  color: #61DAFB;
+}
