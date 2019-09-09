@@ -1,5 +1,7 @@
 ## Create React App + Redux
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/create-react-app-redux.svg)](https://greenkeeper.io/)
+
 __Create-react-app with react-redux, redux-thunk and redux-devtools added in__
 
 - [redux](http://redux.js.org/)
